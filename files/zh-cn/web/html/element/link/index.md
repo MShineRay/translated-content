@@ -310,23 +310,6 @@ l10n:
   media="screen and (min-resolution: 300dpi)" />
 ```
 
-### 使用媒体查询条件性加载资源
-
-可以在 `media` 属性中提供媒体类型或查询；只有满足媒体查询条件时，才会加载该资源。例如：
-
-```html
-<link href="print.css" rel="stylesheet" media="print" />
-<link href="mobile.css" rel="stylesheet" media="all" />
-<link
-  href="desktop.css"
-  rel="stylesheet"
-  media="screen and (min-width: 600px)" />
-<link
-  href="highres.css"
-  rel="stylesheet"
-  media="screen and (min-resolution: 300dpi)" />
-```
-
 ### 样式表加载事件
 
 你能够通过监听发生在样式表上的 `load` 事件知道什么时候样式表加载完毕。同样的，你能够通过监听 `error` 事件检测到是否在加载样式表的过程中出现错误。
